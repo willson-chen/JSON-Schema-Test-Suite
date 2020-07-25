@@ -7,6 +7,7 @@ const refs = {
   'http://localhost:1234/integer.json': require('./remotes/integer.json'),
   'http://localhost:1234/subSchemas.json': require('./remotes/subSchemas.json'),
   'http://localhost:1234/folder/folderInteger.json': require('./remotes/folder/folderInteger.json'),
+  'http://localhost:1234/folder/subSchemaNestedRef.json': require('./remotes/folder/subSchemaNestedRef.json'),
   'http://localhost:1234/name.json': require('./remotes/name.json'),
   'http://localhost:1234/name-defs.json': require('./remotes/name-defs.json')
 };

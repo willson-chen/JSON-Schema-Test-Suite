@@ -51,7 +51,13 @@ REMOTES = {
             u"refToInteger": {u"$ref": u"#/$defs/integer"},
         }
     },
-    "folder/folderInteger.json": {u"type": u"integer"}
+    "folder/folderInteger.json": {u"type": u"integer"},
+    "folder/subSchemaNestedRef.json": {
+        u"type": u"object",
+        u"properties": {
+            u"hole": {u"$ref": u"integer.json"}
+        }
+    }
 }
 REMOTES_DIR = os.path.join(ROOT_DIR, "remotes")
 
