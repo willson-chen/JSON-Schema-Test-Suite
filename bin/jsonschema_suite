@@ -54,7 +54,6 @@ REMOTES = {
     "baseUriChange/folderInteger.json": {u"type": u"integer"},
     "baseUriChangeFolder/folderInteger.json": {u"type": u"integer"},
     "baseUriChangeFolderInSubschema/folderInteger.json": {u"type": u"integer"},
-    "folder/folderInteger.json": {u"type": u"integer"},
     "folder/subSchemaNestedRef.json": {
         u"type": u"object",
         u"properties": {
